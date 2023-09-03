@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.d6fa20bd.css",
+    "main.js": "/website/static/js/main.524ea128.js",
+    "static/media/slackIcon.ico": "/website/static/media/slackIcon.3054171c1e0c4649b143.ico",
+    "index.html": "/website/index.html",
+    "main.d6fa20bd.css.map": "/website/static/css/main.d6fa20bd.css.map",
+    "main.524ea128.js.map": "/website/static/js/main.524ea128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6fa20bd.css",
+    "static/js/main.524ea128.js"
+  ]
+}
