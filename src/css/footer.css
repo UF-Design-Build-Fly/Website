@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  display: inline-block;
+  background: #323232;
+}
+
+#socialLinks {
+  display: flex;
+  justify-content: space-around;
+}
+.socialLink {
+  margin: 1vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.socialLink:hover {
+  text-decoration: underline;
+}
+.socialLink:visited {
+  color: rgb(144, 5, 5);
+}
+
+.socialImage {
+  height: 75px;
+  width: 75px;
+}
+.socialText {
+  font-size: 30px;
+  padding: 10px;
+}

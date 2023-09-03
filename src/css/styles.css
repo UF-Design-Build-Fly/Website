@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Lato;
+  font-weight: lighter;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.topPadding {
+  padding-top: 80px;
+}
