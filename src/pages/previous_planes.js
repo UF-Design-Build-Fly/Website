@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
-import Markdown from "markdown-to-jsx";
+import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+
+import '../css/post.css';
 
 const postData = require("../markdown/previous_planes.md");
 
@@ -17,13 +19,9 @@ function Home() {
 
   return (
     <div id="holder">
-      <div className="content"></div>
+      <div className="topPadding"/>
       <div className="content">
-        <div className="topPadding"/>
-        <h1 className="title">Previous Planes</h1>
-
-        <Markdown>{post}</Markdown>
-
+        <ReactMarkdown>{post}</ReactMarkdown>
       </div>
     </div>
   );
