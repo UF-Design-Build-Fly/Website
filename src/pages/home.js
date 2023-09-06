@@ -3,33 +3,9 @@ function Home() {
 
   return (
     <div id="holder">
-      <div className="content"></div>
+      <div className="topPadding"/>
       <div className="content">
-        <div className="topPadding"/>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title top">First</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
-        <h1 className="title center">Home</h1>
+        <h1>Homepage of DBF</h1>        
       </div>
     </div>
   );

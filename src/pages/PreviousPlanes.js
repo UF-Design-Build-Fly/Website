@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-import '../css/post.css';
+const postData = require("../markdown/PreviousPlanes.md");
 
-const postData = require("../markdown/previous_planes.md");
+function PreviousPlanes() {
 
-function Home() {
   document.title = "UF DBF - Previous Planes";
 
   const [post, setPost] = useState("");
@@ -25,6 +24,7 @@ function Home() {
       </div>
     </div>
   );
+
 }
 
-export default Home;
+export default PreviousPlanes;
