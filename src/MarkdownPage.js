@@ -9,7 +9,7 @@ function MarkdownPage() {
   const [markdownPage, setMarkdownPage] = useState("");
 
   // Get title from search params
-  let title = new URLSearchParams(useLocation().search).get('title')
+  let title = new URLSearchParams(useLocation().search).get('title');
   // Default to home page
   if ( title == null ){
     title = "Home";
