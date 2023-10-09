@@ -16,7 +16,7 @@ function Navbar() {
   let title = new URLSearchParams(useLocation().search).get('title');
 
   pages.forEach((element, index) => {
-    pages[index] = <NavLink className={(title == element ? "selected page_link" : "page_link")} to={"/Website/?title=" + element}>{element}</NavLink>;
+    pages[index] = <NavLink className={(title === element ? "selected page_link" : "page_link")} to={"/Website/?title=" + element}>{element}</NavLink>;
   });
 
   return (
