@@ -1,8 +1,23 @@
 import { NavLink} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import '../css/navbar.css';
 
 function Navbar() {
+
+  const pages = [
+    "Home",
+    "Previous Planes",
+    "Aerodynamics Team",
+    "Structures Team",
+    "Systems Team"
+  ]
+
+  let title = new URLSearchParams(useLocation().search).get('title');
+
+  pages.forEach((element, index) => {
+    pages[index] = <NavLink className={(title == element ? "selected page_link" : "page_link")} to={"/Website/?title=" + element}>{element}</NavLink>;
+  });
 
   return (
     <div className="navbar">
@@ -10,11 +25,7 @@ function Navbar() {
       <input type="checkbox" id="hamburger"/>
       
       <div className="nav_list">
-        <NavLink className={({isActive}) => (isActive ? "selected page_link" : "page_link")} to="/Website/?title=Home">Home</NavLink>
-        <NavLink className={({isActive}) => (isActive ? "selected page_link" : "page_link")} to="/Website/?title=Previous Planes">Previous Planes</NavLink>
-        <NavLink className={({isActive}) => (isActive ? "selected page_link" : "page_link")} to="/Website/?title=Structures Team">Aerodynamics Team</NavLink>
-        <NavLink className={({isActive}) => (isActive ? "selected page_link" : "page_link")} to="/Website/?title=Structures Team">Structures Team</NavLink>
-        <NavLink className={({isActive}) => (isActive ? "selected page_link" : "page_link")} to="/Website/?title=Structures Team">Systems Team</NavLink>
+        {pages}
       </div>
 
     </div>
