@@ -1,6 +1,6 @@
 .content {
-  margin: 50px;
-  width: min(100%, 900px);
+  margin: 0 10%;
+  width: min(80%, 900px);
   font-size: 20px;
 }
 

@@ -6,6 +6,7 @@
 
 #socialLinks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .socialLink {
@@ -19,7 +20,7 @@
   text-decoration: underline;
 }
 .socialLink:visited {
-  color: rgb(144, 5, 5);
+  color: white;
 }
 
 .socialImage {
