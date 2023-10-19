@@ -1,1 +1,2 @@
 # Structures Team
+The Structures Subteam is the premier subteam of the University of Florida Design/Build/Fly Team. Led by the illustrious Dylan Roque, the Structures Subteam regularly engages in hijinks and antics.
