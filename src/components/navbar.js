@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <label htmlFor="hamburger">&#9776;</label>
+      <label id="hamburger_menu" htmlFor="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
       
       <div className="nav_list">

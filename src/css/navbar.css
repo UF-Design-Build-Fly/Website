@@ -1,53 +1,58 @@
 .navbar {
-  background-color: #525252;
-  width: 100vw;
-  min-height: 80px;
-  position: fixed;
-  top: 0;
+	background-color: #525252;
+	width: 100vw;
+	min-height: 80px;
+	position: fixed;
+	top: 0;
 }
 .nav_list {
-  padding: 28px;
-  vertical-align: top;
+	vertical-align: top;
+	display: flex;
+	justify-content: center;
 }
 .navbar > label,
 #hamburger {
-  display: none;
+	display: none;
 }
 
 @media screen and (max-width: 750px) {
-  .navbar > label {
-    display: inline-block;
-    padding-right: 28px;
-    font-size: 50px;
-    color: white;
-  }
+	.navbar > label {
+		display: inline-block;
+		padding-right: 28px;
+		font-size: 50px;
+		color: white;
+	}
 
-  .nav_list > a {
-    display: block;
-  }
+	.nav_list > a {
+		display: block;
+	}
 
-  .nav_list {
-    display: none;
-  }
-  .navbar input:checked ~ .nav_list {
-    display: block;
-  }
+	.nav_list {
+		display: none;
+	}
+	.navbar input:checked ~ .nav_list {
+		display: block;
+	}
 }
 
 .page_link {
-  color: white;
-  text-decoration: none;
-  font-size: 28px;
-  margin: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 28px;
+	margin: 25px;
 }
 .page_link:visited {
-  color: white;
+	color: white;
 }
 .page_link:hover {
-  border: white;
-  border-width: 1px;
-  border-bottom-style: solid;
+	border: white;
+	border-width: 1px;
+	border-bottom-style: solid;
 }
 .selected {
-  font-weight: bold;
+	font-weight: bold;
+}
+
+#hamburger_menu {
+	padding-left: 15px;
 }
