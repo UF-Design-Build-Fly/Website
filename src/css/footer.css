@@ -1,33 +1,99 @@
 .footer {
   width: 100%;
-  display: inline-block;
-  background: #323232;
+  color: white;
+  background: #020817;
+}
+
+.footer-inner {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 42px 0;
+  display: grid;
+  grid-template-columns: 1.05fr 1.35fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-brand img {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+}
+
+.footer-brand h2 {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+}
+
+.footer-brand p,
+.footer-contact span {
+  color: rgba(255,255,255,.62);
+  margin-bottom: 0;
 }
 
 #socialLinks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 12px;
 }
+
 .socialLink {
-  margin: 1vh;
   display: flex;
   align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 8px 12px;
   color: white;
   text-decoration: none;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,.06);
 }
+
 .socialLink:hover {
-  text-decoration: underline;
-}
-.socialLink:visited {
-  color: white;
+  background: rgba(255,255,255,.12);
 }
 
 .socialImage {
-  height: 75px;
-  width: 75px;
+  height: 28px;
+  width: 28px;
+  object-fit: contain;
 }
+
 .socialText {
-  font-size: 30px;
-  padding: 10px;
+  font-size: 0.98rem;
+  font-weight: 900;
+}
+
+.footer-contact {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.footer-contact a {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+@media (max-width: 840px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+  #socialLinks {
+    justify-content: flex-start;
+  }
 }
