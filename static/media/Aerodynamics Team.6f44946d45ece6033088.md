@@ -1,2 +1,0 @@
-# Aerodynamics Team
-Control surface

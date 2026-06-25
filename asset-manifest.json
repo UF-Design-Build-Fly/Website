@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.5f3370c8.css",
-    "main.js": "/Website/static/js/main.180cb3de.js",
+    "main.css": "/Website/static/css/main.c4337018.css",
+    "main.js": "/Website/static/js/main.a06aec1d.js",
     "static/media/slackIcon.ico": "/Website/static/media/slackIcon.3054171c1e0c4649b143.ico",
-    "static/media/Previous Planes.md": "/Website/static/media/Previous Planes.f290f23f57741a0d9f51.md",
-    "static/media/Systems Team.md": "/Website/static/media/Systems Team.ac61bbb68fbbbf44b279.md",
-    "static/media/Home.md": "/Website/static/media/Home.585dc50d7ab4b7182910.md",
     "index.html": "/Website/index.html",
-    "static/media/Structures Team.md": "/Website/static/media/Structures Team.a919a4d2f39804b8c3c9.md",
-    "static/media/ErrorPage.md": "/Website/static/media/ErrorPage.32710333ad6b9dfce696.md",
-    "static/media/Aerodynamics Team.md": "/Website/static/media/Aerodynamics Team.6f44946d45ece6033088.md",
-    "main.5f3370c8.css.map": "/Website/static/css/main.5f3370c8.css.map",
-    "main.180cb3de.js.map": "/Website/static/js/main.180cb3de.js.map"
+    "main.c4337018.css.map": "/Website/static/css/main.c4337018.css.map",
+    "main.a06aec1d.js.map": "/Website/static/js/main.a06aec1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f3370c8.css",
-    "static/js/main.180cb3de.js"
+    "static/css/main.c4337018.css",
+    "static/js/main.a06aec1d.js"
   ]
 }
