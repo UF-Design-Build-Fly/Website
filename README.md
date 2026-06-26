@@ -1,23 +1,31 @@
-# Website
+# Design / Build / Fly at the University of Florida Website
 
-UF DBF Website
+Modernized React site for Design / Build / Fly at the University of Florida.
 
-https://uf-design-build-fly.github.io/Website/
+## Local development
 
-To Update Existing Page
+```bash
+npm install
+npm start
+```
 
-- Change markdown file
+## Build
 
-To Create New Page
+```bash
+npm run build
+```
 
-- Create/copy a new markdown file
-- Add the file name to the navBar.js pages array in the component folder (line ~8)
+## Deploy to GitHub Pages
 
-To Test View
+```bash
+npm run deploy
+```
 
-- run 'npm run start' to view a local copy of the site
+The site uses the existing GitHub Pages homepage path:
+`https://UF-Design-Build-Fly.github.io/Website`
 
-To Deploy
+## Updated content
 
-- run 'npm run build'
-- run 'npm run deploy'
+- New Design / Build / Fly logos added to `public/media/images/logos/`.
+- 2026-2027 sponsorship package added to `public/files/UF_DBF_Sponsorship_Package_2026_2027.pdf`.
+- Pages refreshed: Home, About, Teams, Aircraft, Sponsors.

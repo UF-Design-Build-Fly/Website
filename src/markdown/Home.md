@@ -1,4 +1,4 @@
-# University of Florida Design / Build / Fly
+# Design / Build / Fly at the University of Florida
 
 8th of 99 teams 2022-2023 ✈️🏅
 
@@ -12,4 +12,4 @@ Our team is divided into three sub-teams: Aerodynamics, Systems, and Structures.
 
 ![Team Photo Florida](media/images/teamFlorida.png)
 
-![Team Photo Arizona](media/images/teamArizona.jpg)
+![Team Photo Arizona](media/images/newestgood-team.png)
